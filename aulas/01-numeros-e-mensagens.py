@@ -12,4 +12,4 @@ print('7'+'4')
 
 # Em números não são usadas aspas, mas se usadas, o python ira juntar os dois números pois o simbolo mais ou virgula junta os elementos, mas não faz operações matemáticas.
 
-#Toda mensagem TEM que estar entre aspas ou dara erro de sintaxe
+# Toda mensagem TEM que estar entre aspas ou dara erro de sintaxe
