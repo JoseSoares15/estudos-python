@@ -1,6 +1,14 @@
-# + adição,     - subtração,    * multiplicação,    / divisão,    **potência,     //divisão inteira,   % resto da divisão
-# 5+2==7,         5-2==3,         5*2==10,          5/2==2.5,      5**2==25,       5//2==2,            5%2==1
-
-# o operando pode ser qualquer coisa, desde números inteiros, strings e até variaveis.
-
-#relembrando: um igual significa atribuição (recebe). para ver se algo é igual, utiliza-se dois iguais (==)
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro: '))
+s = n1+n2
+m = n1*n2
+d = n1/n2
+di = n1//n2
+e = n1**n2
+sub = n1-n2
+print('A soma vale {}' .format(s), end=' ')
+print('A subtração vale {}' .format(sub))
+print('A multiplicação vale {}' .format(m))
+print('A divisão vale {:.2f}' .format(d))
+print('A divisão inteira vale: {}' .format(di))
+print('A exponenciação vale {}' .format(e))
